@@ -1,0 +1,8 @@
+{
+  "root": "dist",
+  "routes": {
+    "/api/*": {
+      "proxy": "https://agrosense-backend-0eqo.onrender.com/*"
+    }
+  }
+}
